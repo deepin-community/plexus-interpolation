@@ -1,0 +1,106 @@
+plexus-interpolation (1.26-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Removed the -java-doc package
+  * Standards-Version updated to 4.3.0
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Sun, 07 Jul 2019 22:58:19 +0200
+
+plexus-interpolation (1.25-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+    - Set the JAVA_HOME variable when running the tests
+  * Standards-Version updated to 4.1.5
+  * Switch to debhelper level 11
+  * Use salsa.debian.org Vcs-* URLs
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 30 Jul 2018 15:23:06 +0200
+
+plexus-interpolation (1.24-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 19 Jun 2017 15:32:47 +0200
+
+plexus-interpolation (1.24-1~exp1) experimental; urgency=medium
+
+  * New upstream release
+    - New build dependency on libmaven-bundle-plugin-java
+    - Patched pom.xml to add the junit dependency
+  * Updated the URL of the project homepage
+  * Build with the DH sequencer instead of CDBS
+  * Switch to debhelper level 10
+  * Standards-Version updated to 3.9.8
+  * Use secure Vcs-* URLs
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 18 May 2017 15:27:08 +0200
+
+plexus-interpolation (1.21-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Standards-Version updated to 3.9.6 (no changes)
+  * Moved the package to Git
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 09 Jul 2015 00:32:55 +0200
+
+plexus-interpolation (1.19-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release:
+    - Set source/target level to 1.6
+    - Removed 0001-add-test-dependency-junit.patch
+  * debian/control:
+    - Updated Standards-Version to 3.9.4 (no changes)
+    - Use canonical URLs for the Vcs-* fields
+  * Build depend on debhelper >= 9
+  * debian/watch: Updated to catch the new versions on Github
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Sat, 19 Oct 2013 01:08:57 +0200
+
+plexus-interpolation (1.11-3) unstable; urgency=low
+
+  * Switch to source format 3.0.
+  * Switch to debhelper level 7.
+  * Change Build-Depends: default-jdk-builddep to default-jdk.
+  * Update Standards-Version: 3.9.1.
+  * Use Maven to build the package.
+  * Add a documentation package.
+  * Add a patch to support junit tests.
+
+ -- Torsten Werner <twerner@debian.org>  Sun, 28 Aug 2011 21:57:38 +0200
+
+plexus-interpolation (1.11-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Torsten Werner <twerner@debian.org>  Sun, 09 Aug 2009 23:42:55 +0200
+
+plexus-interpolation (1.11-1) experimental; urgency=low
+
+  * New upstream release, add myself to Uploaders
+  * Change section to java, bump Standards-Version to 3.8.1
+  * Add the Maven POM to the package
+  * Add a Build-Depends-Indep dependency on maven-repo-helper
+  * Use mh_installpom and mh_installjar to install the POM and the jar 
+    ro the Maven repository
+  * Remove Depends on any Java runtime for the library package
+  * Remove the patch for the POM as it's no longer needed, as well as
+    the dependency on Quilt
+
+ -- Ludovic Claude <ludovic.claude@laposte.net>  Tue, 24 Mar 2009 12:13:31 +0000
+
+plexus-interpolation (1.7-2) unstable; urgency=low
+
+  * Change Depends: default-jre (instead of default-java).
+
+ -- Torsten Werner <twerner@debian.org>  Fri, 26 Dec 2008 00:52:07 +0100
+
+plexus-interpolation (1.7-1) unstable; urgency=low
+
+  * Initial release. (Closes: #508095)
+
+ -- Torsten Werner <twerner@debian.org>  Sun, 07 Dec 2008 21:15:47 +0100

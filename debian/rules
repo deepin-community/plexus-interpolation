@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_test:
+	# EnvarBasedValueSourceTest requires JAVA_HOME to be set
+	JAVA_HOME=/usr/lib/jvm/default-java dh_auto_test
